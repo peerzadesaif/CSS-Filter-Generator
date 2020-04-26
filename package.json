@@ -1,0 +1,27 @@
+{
+  "name": "css-filter-generator",
+  "version": "1.0.0",
+  "description": "Simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "bundle exec jekyll serve",
+    "deploy": "gh-pages -d dist",
+    "build": "jekyll build -d dist --safe",
+    "dev": "npm run bundle",
+    "serve": "jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saifpirjade/CSS-Filter-Generator.git"
+  },
+  "author": "Saif Pirjade <saif.pirjade@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saifpirjade/CSS-Filter-Generator/issues"
+  },
+  "homepage": "https://saifpirjade.github.io/CSS-Filter-Generator",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

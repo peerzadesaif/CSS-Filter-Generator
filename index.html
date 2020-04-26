@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<table>
+  <tr valign="top">
+    <td width="50%">
+      <fieldset>
+        <p>
+          <label>
+            Target color
+            <span>Enter your color HEX code</span>
+          </label>
+          <input class="target" type="text" placeholder="target hex" value="#00a4d6" />
+        </p>
+        <button class="execute">Generate Filters</button>
+      </fieldset>
+      <p>Real pixel, color applied through CSS <code>background-color</code>:</p>
+      <div class="pixel realPixel"></div>
+      <p>Filtered pixel, color applied through CSS <code>filter</code>:</p>
+      <div class="pixel filterPixel"></div>
+      <p class="filterDetail"></p>
+      <p class="lossDetail"></p>
+    </td>
+  </tr>
+</table>
