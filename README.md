@@ -4,7 +4,7 @@
 > A Vue.js project
 
 > 📢 
-Created Plugin for Generate svg color filter uisng HEX. HTML or website built with Jekyll.
+Created Plugin for Generate svg color filter using HEX. HTML or website built with Jekyll.
 
 ## Dependencies
 
