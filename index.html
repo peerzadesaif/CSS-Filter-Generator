@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Filter CSS Generator" />
+    <meta property="og:description" content="The goal was to be able to create custom css styles and allow for the coloring of svg icons for your own websites." />
+    <meta property="og:locale" content="English">
+    <meta name="title" content="Filter CSS Generator">
+    <meta name="description" content="The goal was to be able to create custom css styles and allow for the coloring of svg icons for your own websites.">
+    <meta name="keywords" content="Generate, CSS Filter, web, HEX Code, HEX, Code, saif">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Saif Pirjade">
+
+    <link rel="icon" href="CSS-Filter-Generator/assets/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="CSS-Filter-Generator/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="CSS-Filter-Generator/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="CSS-Filter-Generator/assets/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="CSS-Filter-Generator/assets/favicon_io/android-chrome-192x192">
+    <link rel="icon" type="image/png" sizes="512x512"
+        href="CSS-Filter-Generator/assets/favicon_io/android-chrome-512x512.png">
+    <link rel="manifest" href="CSS-Filter-Generator/assets/favicon_io/site.webmanifest">
+    <!-- linear-gradient(to right, #4776e6, #8e54e9) -->
+
+    <title>Filter CSS Generator</title>
+</head>
+
+<body>
+    <table>
+  <tr valign="top">
+    <td width="50%">
+      <fieldset>
+        <p>
+          <label>
+            Target color
+            <span>Enter your color HEX code</span>
+          </label>
+          <input class="target" type="text" placeholder="target hex" value="#00a4d6" />
+        </p>
+        <button class="execute">Generate Filters</button>
+      </fieldset>
+      <p>Real pixel, color applied through CSS <code>background-color</code>:</p>
+      <div class="pixel realPixel"></div>
+      <p>Filtered pixel, color applied through CSS <code>filter</code>:</p>
+      <div class="pixel filterPixel"></div>
+      <p class="filterDetail"></p>
+      <p class="lossDetail"></p>
+    </td>
+  </tr>
+</table>
+    <script src='assets/js/jquery.min.js' type="text/javascript" charset="utf-8"></script>
+<script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
