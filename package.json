@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "bundle exec jekyll serve",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "build": "jekyll build -d dist --safe",
     "dev": "npm run bundle",
     "serve": "jekyll serve"

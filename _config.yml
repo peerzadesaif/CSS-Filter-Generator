@@ -21,6 +21,7 @@
 title: Filter CSS Generator
 email: saif.pirjade@example.com
 description: The goal was to be able to create custom css styles and allow for the coloring of svg icons for your own websites.
+base_url: ""
 baseurl: "CSS-Filter-Generator" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saif pirjade
