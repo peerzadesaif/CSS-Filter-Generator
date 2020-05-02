@@ -14,7 +14,7 @@ Created Plugin for Generate svg color filter uisng HEX. HTML or website built wi
 ## Getting Started
 Make sure you have already installed jekyll on your system. Please install first.
 
-`gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
+`gem install bundler jekyll`
 
 # install dependencies
 1.  `npm install`
